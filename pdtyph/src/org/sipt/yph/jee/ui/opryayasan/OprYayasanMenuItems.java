@@ -7,10 +7,7 @@ import com.vaadin.server.Resource;
 
 public enum OprYayasanMenuItems {
 	DASHBOARD("Dashboard ", Dashboard.class, FontAwesome.DASHBOARD, true),
-	DAFTARPEGAWAIYAYASAN("Pegawai Yayasan", DaftarPegawaiYayasan.class, FontAwesome.USER_MD, false),
-	DAFTARJABATAN("Daftar Jabatan", DaftarJabatanYayasan.class, FontAwesome.BAR_CHART_O, false),
-	
-	
+		
 	KELOLAINSTANSI("Profil Instansi", DaftarInstansi.class, FontAwesome.HOME, false),
 	KELOLAUSER("Data User Instansi", DaftarUser.class, FontAwesome.USER, false),
 	KELOLAUSERYAYASAN("Data User Yayasan", DaftarUserYayasan.class, FontAwesome.USER, false),

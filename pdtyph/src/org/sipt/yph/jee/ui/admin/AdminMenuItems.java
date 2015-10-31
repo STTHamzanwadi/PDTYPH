@@ -7,8 +7,6 @@ import com.vaadin.server.Resource;
 
 public enum AdminMenuItems {
 	DASHBOARD("Dashboard ", Dashboard.class, FontAwesome.DASHBOARD, true),
-	PEGAWAIYAYASAN("Pegawai Yayasan", DaftarPegawaiYayasan.class, FontAwesome.USER_MD, false),
-	JABATANYAYASAN("Daftar Jabatan Yayasan", DaftarJabatanYayasan.class, FontAwesome.BAR_CHART_O, false),
 	DAFTARPEGAWAI("Daftar Pegawai Instansi", DaftarPegawai.class, FontAwesome.USERS, false),
 	DAFTARJABATAN("Daftar Jabatan Instansi", DaftarJabatan.class, FontAwesome.BUILDING_O, false),
 	DAFTARPRODI("Daftar Prodi instansi",DaftarProdi.class, FontAwesome.TROPHY, false),
