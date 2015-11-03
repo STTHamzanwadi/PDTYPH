@@ -271,6 +271,7 @@ public class TambahPegawai extends Panel implements View{
 		pendidikan.setWidth("147px");
 		fieldGroup.bind( pendidikan, "jenjangPendTerakhir");
 		fly.addComponent(pendidikan);
+		fly.addComponent(new UploadExample());
 		
 		
 		pnl.addComponent(form);

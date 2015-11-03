@@ -18,8 +18,8 @@ public class UploadExample extends VerticalLayout {
 
 	private LineBreakCounter counter = new LineBreakCounter();
 
-	private Upload upload = new Upload("Upload a file", counter);
-	private Embedded image =new Embedded("Uploaded file");
+	private Upload upload = new Upload("Upload photo Pegawai", counter);
+	private Embedded image =new Embedded("Uploaded Photo Pegawai");
 	@SuppressWarnings("deprecation")
 	public UploadExample() {
 

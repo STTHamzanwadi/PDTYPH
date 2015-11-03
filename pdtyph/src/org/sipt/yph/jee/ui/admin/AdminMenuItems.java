@@ -9,14 +9,12 @@ public enum AdminMenuItems {
 	DASHBOARD("Dashboard ", Dashboard.class, FontAwesome.DASHBOARD, true),
 	DAFTARPEGAWAI("Daftar Pegawai Instansi", DaftarPegawai.class, FontAwesome.USERS, false),
 	DAFTARJABATAN("Daftar Jabatan Instansi", DaftarJabatan.class, FontAwesome.BUILDING_O, false),
-	DAFTARPRODI("Daftar Prodi instansi",DaftarProdi.class, FontAwesome.TROPHY, false),
-	
+	DAFTARPRODI("Daftar Prodi instansi",DaftarProdi.class, FontAwesome.TROPHY, false),	
 	
 	KELOLAINSTANSI("Profil Instansi", DaftarInstansi.class, FontAwesome.HOME, false),
 	DAFTARADMIN("Admin", DaftarAdmin.class, FontAwesome.USERS, false),
 	KELOLAUSER("Data User Instansi", DaftarUser.class, FontAwesome.USER, false),
-	KELOLAUSERYAYASAN("Data User Yayasan", DaftarUserYayasan.class, FontAwesome.USER, false),
-	
+	KELOLAUSERYAYASAN("Data User Yayasan", DaftarUserYayasan.class, FontAwesome.USER, false),	
 	
 	CARIDATA("Pencarian", DaftarPencarian.class, FontAwesome.SEARCH, true),
 	PENDIDIKANDOSEN("Jumlah Pegawai (Pendidikan)", GrafikJumlahDosenPendidikan.class, FontAwesome.TH, false),
