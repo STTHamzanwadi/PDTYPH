@@ -1,6 +1,7 @@
-package org.pdtyph.jee.ui.oprlembaga;
+package org.pdtyph.jee.ui.opryayasan;
 
-import org.pdtyph.entity.UserOprInstansi;
+import org.pdtyph.entity.UserOprYayasan;
+import org.pdtyph.jee.ui.opryayasan.MainUI;
 import org.pdtyph.util.UserAuthenticationService;
 
 import com.vaadin.event.ShortcutAction.KeyCode;
@@ -95,13 +96,13 @@ public class LoginView extends VerticalLayout {
 		String password = this.password.getValue();
 		boolean isValid=false;
 		userName = userName.toUpperCase();
-		UserOprInstansi u = UserAuthenticationService.getValidInstansi(userName, password);
+		UserOprYayasan u = UserAuthenticationService.getValidOpryayasan(userName, password);
 		if (u!=null){
 			isValid = true;
 		}
 		if (isValid) {
 
-			VaadinSession.getCurrent().setAttribute(UserOprInstansi.class, u);
+			VaadinSession.getCurrent().setAttribute(UserOprYayasan.class, u);
 			MainUI ui = (MainUI) getUI();//
 			ui.updateContent();
 		} else {
@@ -130,7 +131,7 @@ public class LoginView extends VerticalLayout {
         welcome.addStyleName(ValoTheme.LABEL_COLORED);
         labels.addComponent(welcome);
 
-        Label title = new Label("Operator instansi");
+        Label title = new Label("Operator Yayasan");
         title.setSizeUndefined();
         title.addStyleName(ValoTheme.LABEL_H3);
         title.addStyleName(ValoTheme.LABEL_LIGHT);

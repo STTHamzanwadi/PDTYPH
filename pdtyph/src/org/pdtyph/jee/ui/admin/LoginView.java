@@ -1,7 +1,7 @@
 package org.pdtyph.jee.ui.admin;
 
 import org.pdtyph.entity.Admin;
-import org.sipt.yph.util.UserAuthenticationService;
+import org.pdtyph.util.UserAuthenticationService;
 
 import com.vaadin.event.ShortcutAction.KeyCode;
 import com.vaadin.server.FontAwesome;

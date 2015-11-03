@@ -1,2 +1,5 @@
-/org/
 /com/
+/hibernate.cfg.xml
+/hibernate.cfg.xml.local
+/hibernate.cfg.xml.temp.local
+/org/
